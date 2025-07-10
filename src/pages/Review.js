@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./review.css";
 const reviews = [
   {
     stars: 5,

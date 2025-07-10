@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CHOPS/static/css/main.943cda15.css",
+    "main.js": "/CHOPS/static/js/main.dcf42990.js",
+    "static/media/home.png": "/CHOPS/static/media/home.3da36cb94edaf78fcaa1.png",
+    "index.html": "/CHOPS/index.html",
+    "main.943cda15.css.map": "/CHOPS/static/css/main.943cda15.css.map",
+    "main.dcf42990.js.map": "/CHOPS/static/js/main.dcf42990.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.943cda15.css",
+    "static/js/main.dcf42990.js"
+  ]
+}

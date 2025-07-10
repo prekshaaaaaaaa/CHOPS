@@ -1,0 +1,112 @@
+.review-page {
+  min-height: 100vh;
+  background: #111;
+  padding: 60px 0 80px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-heading {
+  color: #ff7eb9;
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-shadow: 0 2px 12px #0008;
+  animation: popIn 1s cubic-bezier(.25,.8,.25,1);
+}
+
+.review-subhead {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 38px;
+  animation: fadeIn 1.2s 0.3s backwards;
+}
+
+.review-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.review-card {
+  background: #111;
+  border-radius: 22px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18), 0 0 16px 2px #ff4fa355;
+  width: 340px;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 28px 28px 28px;
+  margin-bottom: 20px;
+  border: 2px solid #FFD700;
+  transition: transform 0.18s, box-shadow 0.18s;
+  animation: popIn 1.1s cubic-bezier(.25,.8,.25,1);
+}
+
+.review-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px 0 rgba(255,126,185,0.18), 0 0 24px 4px #ff4fa377;
+}
+
+.review-stars {
+  color: #FFD700;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.review-text {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 18px;
+  font-style: italic;
+  animation: fadeIn 1.2s 0.2s backwards;
+}
+
+.review-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.review-avatar {
+  font-size: 2rem;
+  background: linear-gradient(135deg, #ff7eb9 60%, #ff4fa3 100%);
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px #ff7eb955;
+}
+
+.review-name {
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.review-role {
+  color: #ff4fa3;
+  font-size: 0.95rem;
+}
+
+@keyframes popIn {
+  0% { opacity: 0; transform: scale(0.7); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+} 

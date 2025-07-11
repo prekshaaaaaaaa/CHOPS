@@ -1,81 +1,98 @@
-🥩 CHOPS – Fine Dining Restaurant Website
-Live Demo: 🌐 https://chops.onrender.com
 
-📌 Overview
-CHOPS is a visually stunning and responsive restaurant website built using ReactJS. It features smooth navigation, elegant UI design, and call-to-action elements for an engaging user experience. This single-page application showcases a modern restaurant layout with sections like:
 
-🧾 Menu
+# 🥩 CHOPS – Fine Dining Restaurant Website
 
-ℹ️ About
+**Live Demo:** https://chops.onrender.com
 
-📞 Contact
+---
 
-⭐ Reviews
+## 📌 Overview
 
-📅 Table Reservation button
+**CHOPS** is a modern, single-page restaurant website built with React. It includes elegant visuals, smooth navigation, and responsive design.
 
-🛠️ Tech Stack
-Frontend: ReactJS (Vite or CRA)
+---
 
-Styling: CSS3, Flexbox
+## 🚀 Features
 
-Deployment: Render
+- Hero section with background image & tagline
+- Navigation menu with smooth scrolling
+- Sections: Menu, About, Contact, Reviews
+- Call-to-action: “Reserve Table” button
+- Mobile-friendly responsive design
 
-Version Control: Git & GitHub
+---
 
-🚀 Features
-Smooth scroll navigation
+## 📁 Folder Structure (Simplified)
 
-Fixed header with call-to-action button
-
-Full-width background hero image
-
-Fully responsive on all devices
-
-Structured and scalable folder layout
-
-📁 Project Structure (Basic)
-pgsql
-Copy
-Edit
 CHOPS/
 ├── public/
-│   └── bg.jpg
+│ └── assets/
+│ └── bg.jpg
 ├── src/
-│   ├── components/
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── .gitignore
+│ ├── App.js
+│ ├── App.css
+│ └── index.js
 ├── package.json
 └── README.md
-🧑‍💻 Run Locally
-bash
+
+yaml
 Copy
 Edit
+
+---
+
+## 🧑‍💻 Running Locally
+
+```bash
 git clone https://github.com/prekshaaaaaaaa/CHOPS.git
 cd CHOPS
 npm install
 npm start
-🛠 Deployment
-Deployed on Render using:
+📦 Deploy to GitHub Pages
+Install gh-pages:
 
-Build command: npm run build
+bash
+Copy
+Edit
+npm install --save gh-pages
+Add this to package.json:
 
-Publish directory: build
+json
+Copy
+Edit
+"homepage": "https://prekshaaaaaaaa.github.io/CHOPS",
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+Deploy:
 
-🙌 Acknowledgements
-Background image credit: Unsplash/Pexels (replace with source if needed)
+bash
+Copy
+Edit
+npm run deploy
 
-Fonts & Icons: Google Fonts / Font Awesome
-
-💡 Future Improvements
-Add backend for reservations (Express + MongoDB)
-
-Add animations and transitions
-
-Integrate Google Maps & dynamic reviews
-
-🧑 Author
+## 👩‍💻 Author
 Preksha Sethi
-📫 sethipreksha321@gmail.com
+📧 sethipreksha321@gmail.com
+
+
+📌 License
+This project is open-source and available under the MIT License.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
